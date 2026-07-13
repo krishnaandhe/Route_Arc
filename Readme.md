@@ -1,16 +1,10 @@
 # <p align="left">
-  docs/assets/logo.png
+  <img src="/docs/assets/logo.png" alt="Route_Arc_logo png" /></p>
 </p> Route Arc
 
 > A self-hosted **fleet management & trip booking system for organizations** — book rides, assign drivers, map routes, and rate journeys, all from a clean role-aware dashboard.
 
-<p align="center">
-  docs/screenshots/banner.png
-</p>
-
 <p align="center"><img src="/docs/screenshots/banner.png" alt="Route_Arc png" /></p>
-
-![](https://raw.githubusercontent.com/krishnaandhe/Route_Arc/blob/main/docs/screenshots/banner.png)
 
 <p align="center">
   <a href="#">BB4?logo=php&logoColor=white" alt="PHP 8.2"></a>
