@@ -1,26 +1,25 @@
-# <p align="left">
-  <img src="/docs/assets/logo.png" alt="Route_Arc_logo png" /></p>
-</p> Route Arc
-
-> A self-hosted **fleet management & trip booking system for organizations** — book rides, assign drivers, map routes, and rate journeys, all from a clean role-aware dashboard.
+<p align="center">
+<img src="/docs/assets/logo.png" width="90">
+</p>
+<h1 align="center">Route Arc</h1>
+<p align="center"><h2><em>A self-hosted **fleet management & trip booking system for organizations** — book rides, assign drivers, map routes, and rate journeys, all from a clean role-aware dashboard.</em></h2></p>
 
 <p align="center"><img src="/docs/screenshots/banner.png" alt="Route_Arc png" /></p>
-
+<p align="center"> <<------------x------------>> </p>
 <p align="center">
-  <a href="#">BB4?logo=php&logoColor=white" alt="PHP 8.2"></a>
-  <a href="#">https://img.shields.io/badge/MariaDB-11-003545?logo=mariadb&logoColor=white</a>
-  <a href="#">?logo=leaflet&logoColor=white" alt="Leaflet + OSM"></a>
-  <a href="#">-MIT-blue.svg" alt="License: MIT"></a>
-  <a href="#">come-brightgreen.svg" alt="PRs Welcome"></a>
+  <img src="https://api.iconify.design/devicon:php.svg" alt="php" width="64" height="64" />
+  <img src="https://api.iconify.design/devicon:mariadb-wordmark.svg" alt="mariadb-wordmark" width="64" height="64" />
+  <img src="https://api.iconify.design/logos:leaflet.svg" alt="leaflet" width="64" height="64" />
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7195e121-eded-45cf-9aab-909deebd81b2/d9ur2lg-28410b47-58fd-4a48-9b67-49c0f56c68ce.png" alt="Licence-MIT" width="64" height="64" />
+  <img src="https://api.iconify.design/catppuccin:contributing.svg" alt="contributing" width="64" height="64" />
 </p>
 
----
 
 ## 📖 Overview
 
 **Route Arc** is a lightweight, self-hosted trip-booking and fleet-management platform built with **PHP 8 + MariaDB**. It gives every user tier — employees, approvers, fleet managers, drivers, and admins — a purpose-built experience, from booking a ride to assigning a driver, mapping the route live, and rating the journey both ways.
 
-Designed to run anywhere (IIS, Apache, or Docker), Route Arc ships with granular **role-based access control**, live **route mapping**, a **two-way rating system**, and persistent **in-app notifications**.
+Designed to run anywhere (IIS, Apache), Route Arc ships with granular **role-based access control**, live **route mapping**, a **two-way rating system**, and persistent **in-app notifications**.
 
 ---
 
@@ -90,65 +89,6 @@ Designed to run anywhere (IIS, Apache, or Docker), Route Arc ships with granular
 | **Maps** | Leaflet.js + OpenStreetMap + Nominatim |
 | **Icons** | Tabler Icons |
 | **Server** | IIS / Apache / Nginx (or Docker) |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- PHP 8.0+
-- MariaDB 10.5+ (or MySQL 8+)
-- A web server (IIS, Apache, or Nginx) — or Docker
-
-### Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/Route_Arc.git
-cd Route_Arc
-
-# 2. Copy the sample config and fill in your details
-cp config.sample.php config.php
-
-# 3. Import the database schema
-mysql -u root -p routearc < setup.sql
-```
-
-Then point your web server's document root to the `public/` folder and open the app in your browser.
-
-### 🐳 Run with Docker (one command)
-
-```bash
-docker compose up -d
-```
-The app will be live at **http://localhost:8080**, with the database auto-built from `setup.sql`.
-
----
-
-## ⚙️ Configuration
-
-All environment-specific settings live in `config.php` (ignored by Git). Use `config.sample.php` as your template:
-
-```php
-<?php
-return [
-    'db_host' => 'localhost',
-    'db_name' => 'routearc',
-    'db_user' => 'your_user',
-    'db_pass' => 'your_password',
-    'app_name' => 'Route Arc',
-];
-```
-
-> ⚠️ **Never commit real credentials.** Keep `config.php` out of version control and share only `config.sample.php`.
-
----
-
-## 📸 Screenshots
-
-| Dashboard | Route Map | Driver Panel |
-|-----------|-----------|--------------|
-| docs/screenshots/dashboard.png | docs/screenshots/map.png | docs/screenshots/driver.png |
 
 ---
 
