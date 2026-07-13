@@ -8,6 +8,8 @@
   docs/screenshots/banner.png
 </p>
 
+![](https://raw.githubusercontent.com/krishnaandhe/Route_Arc/blob/main/docs/screenshots/banner.png)
+
 <p align="center">
   <a href="#">BB4?logo=php&logoColor=white" alt="PHP 8.2"></a>
   <a href="#">https://img.shields.io/badge/MariaDB-11-003545?logo=mariadb&logoColor=white</a>
