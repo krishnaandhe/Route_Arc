@@ -8,6 +8,8 @@
   docs/screenshots/banner.png
 </p>
 
+<p align="center"><img src="/docs/screenshots/banner.png" alt="Route_Arc png" /></p>
+
 ![](https://raw.githubusercontent.com/krishnaandhe/Route_Arc/blob/main/docs/screenshots/banner.png)
 
 <p align="center">
